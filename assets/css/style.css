@@ -1,0 +1,74 @@
+body {
+    background: url('../images/trees.png');
+}
+
+.title {
+    padding: 20px;
+    background: orange;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.crystal-box {
+    padding: 20px;
+    background: peachpuff;
+    color: green;
+    font-weight: 600;
+    width: 500px;
+}
+
+p {
+    margin: 0 auto 15px;
+}
+.crystal-box p {
+    margin: 0 auto 20px;
+}
+
+.score-content {
+    display: flex;
+    margin: 10px 10px 0 0;
+}
+
+.winning-number {
+    background: #53C987;
+    width: 200px;
+    padding: 20px;
+}
+
+.win-num {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.win-loss {
+    padding: 20px;
+    width: 100px;
+    background: #3AFEFC;
+
+}
+
+.crystal-content img {
+    margin: 10px 0 0 0;
+    width: 100px;
+}
+
+.total-score {
+    background: #1FA297;
+    color: white;
+    width: 200px;
+    font-weight: 600;
+}
+
+.my-score-content {
+    widows: 200px;
+    background: #1FA297;
+    width: 200px;
+}
+
+.my-score {
+    font-size: 40px;
+    padding: 20px;
+    color: white;
+}

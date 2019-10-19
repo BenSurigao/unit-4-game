@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Crystal game</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script type="text/javascript" src="assets/javascript/jquery-3.4.1.min.js"></script>
+    </head>
+    <body>
+        
+        <h1 class="title">Crystal Collector!</h1>
+
+        <div class="crystal-box">
+            <p>You will be given a random number at the start of the game.</p>
+            <p></p>
+            <p>There are four crystlas below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            <p></p>
+            <p>You win the game by matching your total score to random number, you lose the game if yourtotal score goes above the random number.</p>
+            <p></p>
+            <p>The value of each crytsal is hidden from you until you click on it.</p>
+            <p></p>
+            <p>Each time when the game starts, the game will change the value of each crystal.</p> 
+        </div>       
+        <div class="score-content">
+            <div class="winning-number">
+                <h2 class="win-num">0</h2>
+            </div>
+            <div class="win-loss">
+                <p>Wins: <span class="wins">0</span></p>    
+                <p>Losses: <span class="losses">0</span></p>
+
+             </div>
+        </div>
+        <div class="crystal-content">
+            <img class="crystal crystal1" data-number="0" src="assets/images/gem1.jpg">
+            <img class="crystal crystal2" data-number="0" src="assets/images/gem2.jpg">
+            <img class="crystal crystal3" data-number="0" src="assets/images/gem3.jpg">
+            <img class="crystal crystal4" data-number="0" src="assets/images/gem4.jpg">
+
+        </div>
+        <div class="total-score">
+            <P>Your total score is:</P>
+
+        </div>
+        <div class="my-score-content">
+            <h2 class="my-score">0</h2>
+
+        </div>
+        <script src="assets/javascript/game.js" async defer></script>
+    </body>
+</html>
